@@ -19,7 +19,7 @@ let fiveslider;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  me = new Ball(80, 350, 5, .5);
+  me = new Ball(80, 350, 5, .25);
 
 for (let i= 0; i<1; i++){
   let p = new Platform(random(0,50),random(550,600));
